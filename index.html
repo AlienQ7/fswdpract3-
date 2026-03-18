@@ -10,40 +10,31 @@
             --nav-text: #ffffff;
             --nav-hover: #00adb5;
         }
-
         .navbar {
             background-color: var(--nav-bg) !important;
         }
-
         .navbar-brand,
         .nav-link {
             color: var(--nav-text) !important;
         }
-
         .nav-link:hover {
             color: var(--nav-hover) !important;
         }
-
         .navbar-toggler {
             border-color: var(--nav-text);
         }
-
         .navbar-toggler-icon {
             filter: invert(1);
         }
     </style>
 </head>
-
 <body>
-
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-
         <a class="navbar-brand" href="#">MySite</a>
         <button class="navbar-toggler" type="button" onclick="toggleMenu()">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="menu">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
@@ -52,15 +43,17 @@
                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
         </div>
-
     </div>
 </nav>
     <div>
         <h1>Responsive Navigation Bar</h1>
-<p>
-A simple responsive navbar using Bootstrap CSS, custom colors and menu toggle.
-</p>
+        <p>
+        A simple responsive navbar using Bootstrap CSS, custom colors and menu toggle.
+        Source Code : <a href="https://github.com/AlienQ7/fswdpract3-.git">GitHub Link</a>
+        </p>
+        
     </div>
+    
 <script>
 function toggleMenu() {
     const menu = document.getElementById("menu");
